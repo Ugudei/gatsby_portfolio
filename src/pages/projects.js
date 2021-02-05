@@ -1,16 +1,18 @@
 import React from "react"
 import Layout from "../components/layout"
-
+import gif from "../styles/echoSales.gif"
 export default function Projects() {
   return (
     <Layout>
       <h1> Echo Sales </h1>
       <p>
-      + Dynamic components, Node Server, SQL database, Jest testing 
-      + Worked on micro services of item detail page, and built the dynamic components
+      + Dynamic components, Node Server, SQL database, Jest testing
+      + Worked on micro services of item detail page, and built the dynamic components 
       + Agile Development
       + Deployed each of the micro services to AWS EC2 instance and built the combined proxy server
+      
       </p>
+      <img src={gif}></img>
       <h1> Car Carousel </h1>
       <p>
       + Inherited legacy code with Redux, modified API calls
